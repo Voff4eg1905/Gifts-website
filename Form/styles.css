@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Open Sans";
-  src: url(./fonts/OpenSans-Regular.ttf);
+  src: url(fonts/OpenSans-Regular.ttf);
   font-weight: normal;
 }
 @font-face {
   font-family: "Open Sans Bold";
-  src: url(./fonts/OpenSans-Bold.ttf);
+  src: url(fonts/OpenSans-Bold.ttf);
   font-weight: 700;
 }
 a {
@@ -20,7 +20,7 @@ a {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  font-family: Open Sans;
+  font-family: "Open Sans";
 }
 .background {
   width: 1000px;
@@ -41,7 +41,7 @@ a {
   height: 731px;
   background-color: #e1e1e1;
   margin: 135px;
-  box-shadow: 0px 15px 3px -5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 15px 3px -5px rgba(0, 0, 0, 0.2);
 }
 
 .inside {
@@ -88,7 +88,7 @@ a {
 }
 /* Start form */
 .form-wrapper {
-  margin: 60px 0px;
+  margin: 60px 0;
 }
 .form-fields-wrapper {
   display: flex;
