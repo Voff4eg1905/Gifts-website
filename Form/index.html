@@ -8,39 +8,35 @@
     <link rel="stylesheet" href="styles.css">
     <title>Sign in</title>
 </head>
-<body class="body">
+<body>
     <div class="background">
      <div class="content">
-        <div class = "inside">
-             <img src="./img/close.png" alt="close" class="close">
-            <h1 class="title">Member sign-in</h1>
-            <div class="text-wrapper">
-            <p class="text">Not a member yet?</p>
-            <a href="#" class="sign-up">Sign up now</a>
-            </div>
-            <form class="form">
-                <div class="form-wrapper">
-                <div class="form-fields-wrapper">
+        <img src="./img/close.png" alt="close" class="close">
+        <h1 class="title">Member sign-in</h1>
+        <p class="text">Not a member yet?</p>
+        <a href="#" class="sign-up">Sign up now</a>
+        <form action = "" method = "post">
+            <div class="form-fields-wrapper">
                 <div class="icon"><img src="./img/log in.png" alt="log in" class="log-in-img"></div>
-                 <div class="input-text"><input type="email" class="input" placeholder="Username / Email"></div>
-                </div>
-                 <div class="form-fields-wrapper">
+                <div><input type="email" class="input" placeholder="Username / Email"></div>
+            </div>
+            <div class="form-fields-wrapper">
                 <div class="icon"><img src="./img/password.png" alt="lock" class="log-in-img"></div>
-                 <div class="input-text"><input type="password" class="input" placeholder="Password"></div>
+                <div><input type="password" class="input" placeholder="Password"></div>
                 <img src="./img/eye.png" alt="cant see" class="eye">
-                </div>
-                </div>
-            </form>
+            </div>  
             <div class="submit">
-        <div class="submit-button"><button class="button" type="button">Sign In</button></div>
-        <div class="submit-option"><label class="label" ><input class="checkbox" type="checkbox" checked><p class="checkbox-text">Remember me</p></label>
-        <a href="#" class="reset-password">Forgot Password?</a></div>
-    </div>
-        </div>
-        
+                <div class="submit-button">
+                <button class="button" type="submit">Sign In</button>
+                </div>
+                <div class="submit-option">
+                <label class="label" ><input class="checkbox" type="checkbox" checked><p class="checkbox-text">Remember me</p></label>
+                <a href="#" class="reset-password">Forgot Password?</a>
+                </div>
+            </div>
+        </form>
      </div> 
      <img src="./img/Designed By Freepik.png" alt="freepik" class="copyright"></img>
     </div>
-    
 </body>
 </html>
