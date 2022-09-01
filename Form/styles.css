@@ -74,7 +74,10 @@ a {
   font-size: 22px;
 }
 /* Start form */
-
+form {
+  display: flex;
+  flex-direction: column;
+}
 .form-fields-wrapper {
   display: flex;
   align-items: center;
@@ -84,16 +87,7 @@ a {
 .form-fields-wrapper:first-child {
   margin-bottom: 30px;
 }
-.icon {
-  background-color: #e65848;
-  height: 91px;
-  width: 91px;
-  display: flex;
-  justify-content: center;
-}
-.log-in-img {
-  padding: 15px 15px;
-}
+
 .input {
   border: none;
   height: 91px;
@@ -102,6 +96,7 @@ a {
   padding-left: 50px;
   box-sizing: border-box;
 }
+
 input::placeholder {
   color: #c4c4c4;
 }
