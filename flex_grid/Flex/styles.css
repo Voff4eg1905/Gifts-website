@@ -30,10 +30,13 @@ p {
   border: 1px solid blue;
   text-align: center;
   display: flex;
+  
   flex-direction: column;
   justify-content: space-around;
   width: 22vh;
   height: 22vh;
+  max-height: 250px;
+  max-width: 250px;
 }
 .row1 {
   background-color: blue;
